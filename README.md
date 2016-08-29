@@ -1,3 +1,3 @@
-# LearningCurves
-Learn and practise
-Updating my repository after installing ubuntu 16
+# WebProjects
+Learning_Advancing_Optimising
+I am new to GitHub and hoping to improve my knowledge in computer programming.

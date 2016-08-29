@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML</title>
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<link href="_css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="page-container">
+	   <div id="main-nav">
+	    <ul>
+  			<li><a class="active" href="#home">HOME</a></li>
+  			<li><a href="#buying">BUYING</a></li>
+  			<li><a href="#selling">SELLING</a></li>
+  			<li><a href="#properties">PROPERTIES</a></li>
+  			<li class="dropdown">
+    			<a href="javascript:void(0)" class="dropbtn" onclick="myFunction()">AREA</a>
+    				<div class="dropdown-content" id="myDropdown">
+    	  			<a href="#">Link 1</a>
+      				<a href="#">Link 2</a>
+      				<a href="#">Link 3</a>
+      				</div>
+ 			</li>
+		</ul>
+	</div>
+	</div>
+    <div id="header">
+	<h1><img src="_images/Kwilliams3.png" width="250" height="189" alt="KellerWilliams" /></h1>
+		<h1><img src="_images/KWlogo.gif" width="160" height="160" alt="KellerWilliams" /></h1>
+	</div> 
+	    	
+	<div id="sidebar-a">
+		<div class="padding">
+			<div class="photos">
+			<img src="_images/KWilliams1.png" width="250" height="189" alt="Philadelphia">
+			<img src="_images/KWilliams4.png" width="250" height="189" alt="Philadelphia">
+			<img src="_images/KWilliams5.jpg" width="250" height="189" alt="Philadelphia">
+			<img src="_images/KWportrait3.jpg" width="250" height="189" alt="Philadelphia">
+			<img src="_images/KWportrait1.jpg" width="250" height="189" alt="Philadelphia">
+			</div>
+    	</div>
+	</div>
+	
+	<div id="content">
+		<div class="padding">
+		<h2><img src="images/headings/about.gif" width="54" height="14" alt="About" /></h2>
+		<p><strong>Keller Williams Realty</strong> A home is not a home of its room dimensions or the color of the walls. It is about
+			how you feel when you walk through the front door. And the way you can instantly envision your life unfolding there
+			This is about more than real estate. it is about your life and your dreams.</p>
+		<p><h2>My Business Goal</h2>Quality integration and pristine customer service are the factors that distinguish my business
+			from the rest in the industry</p>
+		<p><h2>Different by Design</h2>Keller Williams Realty takes a different approach to real estate, one that is built on personal touches,
+			win-win deals and positive results. Anthony Esochaghi utilizes the latest technologies, market research and business strategies to exceed
+			your expectations. More importantly, we listen and that means we find solutions that are tailored to you. I will cherish the satisfaction
+			you will drive and the peace of mind you will get, as your home need is fulfilled. So, I will always give you undivided attention</p>
+			<p><h2>How can we help</h2>Thanks for starting your real estate search with us. This website is full of information for you whether you are looking
+				to buy or sell. After you have had the chance to review this information, contact me so we can tell you more about how we can help. We appreciate 
+				the opportunity to earn your business.</p>
+	<div>
+		<h2><img src="images/headings/contact.gif" width="98" height="14" alt="Contact Us" /></h2>
+		<div itemprop="address">
+        <br><span itemprop="Phone:">Phone: +1 609 484 9890</span>
+        <br><span itemprop="Fax:">Fax: +1 609 909 3889</span>
+        <br><span itemprop="Email:"><a href="mailto:onyeze64@gmail.com">Email: onyeze64@gmail.com</a></span>
+	    <br><span itemprop="streetAddress1">802 Tilton Road</span>
+	    <br><span itemprop="streetAddress2">Suite# 202</span>
+	    <br><span itemprop="addressLocality">Northfield</span>,
+	    <span itemprop="addressRegion">NJ</span>
+	    <span itemprop="postalCode">08225</span>
+	   	<span class="hidden" itemprop="addressCountry"></span>
+	   	 </div>
+	    <p><a href="#">More contact information…</a></p>
+	 </div>   
+	 
+	<div id="footer">
+	    <div id="altnav">
+			<a href="#">HOME</a> -
+			<a href="#">BUYING</a> -
+			<a href="#">SELLING</a> -
+			<a href="#">PROPERTIES</a> -
+		</div>
+		   Copyright © StepOne Designs
+		   Powered by <a href="http://www.StepOneDesigns.com/">StepOne Designs</a> 
+    	</div>			
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+</body>
+</html>
