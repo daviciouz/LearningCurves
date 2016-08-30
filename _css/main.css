@@ -1,0 +1,163 @@
+/* Global Styles */
+
+
+/* Content */
+
+/* Pagination Links
+------------------------------------------------- */
+
+/* Footer
+------------------------------------------------- */
+html, body {
+	background: #087d89;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(107, 107, 132);
+}
+
+ body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 70%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: #ffffff;
+	line-height: 1.8;
+} 
+
+h1 {
+	margin: 0;
+	padding: 0;
+	float: right;
+	margin-top: 57px;
+	padding-right: 31px;
+}
+
+#header {
+	height: 400px;
+	background-image: url("../_images/header1.jpg");
+	width: 1000px;
+	margin: auto;
+}
+
+/* Main Navigation */
+
+#page-container {
+	width: 1000px;
+	margin: auto;
+}
+
+ #main-nav {
+	background: #087d89;
+	height: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+#content h2 {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+#content p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 15px;
+}
+
+}#content {
+	margin-right: 280px;
+	line-height: 18px;
+	
+}
+
+#content .padding {
+	padding: 25px;
+}
+
+#sidebar-a .padding {
+	padding: 25px;
+}
+
+#sidebar-a {
+	float: right;
+	width: 350px;		/* 280 */
+	line-height: 18px;
+	margin: 60px auto;
+}
+
+.photos {
+	margin: 0 auto;
+	width: 250px;
+	padding: 10px 10px;
+	background: rgb(100,98,102);
+}
+
+img {
+	/* margin: 10px 10px;*/
+	border: 2px solid white; /* example used 2px which did not work for me unless the value 1 signifying Left and Right border */
+	
+}
+#footer {
+	clear: both;
+	background: #087d89;
+	height: 66px;
+}
+
+
+
+
