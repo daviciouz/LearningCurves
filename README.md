@@ -1,3 +1,3 @@
 # WebProjects
-Learning_Advancing_Optimising
-I am new to GitHub and hoping to improve my knowledge in computer programming.
+A sample Website on Realty business after I did a refresher course in CSS/HTML/javascript
+Enjoy
